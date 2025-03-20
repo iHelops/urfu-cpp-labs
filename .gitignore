@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
+# Для Visual Studio
+.vs/
+.vscode/
+.idea/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Для бинарных файлов и сборки
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
 
-# Precompiled Headers
-*.gch
+# Лог файлы
+*.log
+
+# Файлы настроек от CMake (если используется)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+
+# Файлы Visual Studio (необязательные для версии)
+.vs2019/
+.vs2017/
+
+# Файлы отчетов и временные файлы
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Для файлов, генерируемых компилятором
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+*.idb
+*.pdb
+*.ipch
+*.obj
+*.exe
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Прочие сгенерированные файлы
+*.sdf
+*.opensdf
+*.dbmdl
