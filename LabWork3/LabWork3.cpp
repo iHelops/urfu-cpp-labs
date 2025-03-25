@@ -113,7 +113,7 @@ void sortIntervalDescending(int mas[], int N1, int N2) {
 }
 
 int main() {
-    setlocale(LC_ALL, "RU");
+    setlocale(LC_ALL, "ru_RU.utf-8");
 
     const int n = 13;
     int mas[n]; // Основной массив для тестов

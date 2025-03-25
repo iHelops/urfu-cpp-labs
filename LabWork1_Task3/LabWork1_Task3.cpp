@@ -24,7 +24,7 @@ void obmen3(int& rx, int& ry) {
 }
 
 int main() {
-    setlocale(LC_ALL, "RU");
+    setlocale(LC_ALL, "ru_RU.utf-8");
 
     int a = 2, b = 5;
 

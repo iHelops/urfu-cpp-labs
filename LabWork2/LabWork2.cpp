@@ -343,7 +343,7 @@ int findClosestToAverage(int m[N][N], int average) {
 }
 
 int main() {
-    setlocale(LC_ALL, "RU");
+    setlocale(LC_ALL, "ru_RU.utf-8");
 
     int matrix[N][N];
     int rowSums[N], colSums[N];

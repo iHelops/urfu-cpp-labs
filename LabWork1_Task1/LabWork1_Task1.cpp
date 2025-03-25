@@ -1,5 +1,4 @@
 #include <iostream>
-#include <locale>
 
 // Функция power для вычисления x^n
 int power(int base, int exponent) {
@@ -13,7 +12,6 @@ int power(int base, int exponent) {
 }
 
 int main() {
-    std::setlocale(LC_ALL, "Russian");
 
     int base, exponent;
 
