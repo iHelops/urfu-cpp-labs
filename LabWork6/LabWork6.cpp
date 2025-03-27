@@ -6,7 +6,6 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "ru_RU.utf-8");
 
-    
     Stroka firstString("Text"); // Создаем строку с начальным значением
     Stroka copiedString(firstString); // Копия первой строки
     Stroka concatenatedString; // Для конкатенации
