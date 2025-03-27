@@ -44,11 +44,12 @@ void kopir(char* dest, const char* src) {
 
 // Функция сравнения строк
 int sravn(char* str1, char* str2) {
-    int variance = dlina1(str1) - dlina1(str2);
+    while (*str1 && (*str1 == *str2)) {
+        str1++;
+        str2++;
+    }
 
-    if (variance >= 1) return 1;
-    if (variance <= -1) return -1;
-    return 0;
+    return *(unsigned char*)str1 - *(unsigned char*)str2;
 }
 
 // Функция конкатенации строк
